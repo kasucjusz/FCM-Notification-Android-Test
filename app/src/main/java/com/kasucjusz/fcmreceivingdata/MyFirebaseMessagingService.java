@@ -36,7 +36,7 @@ public class MyFirebaseMessagingService extends FirebaseMessagingService  {
                     .setSmallIcon(R.mipmap.ic_launcher)
                     .setContentTitle(score)
                     .setContentText("test description")
-                    .setPriority(NotificationCompat.PRIORITY_DEFAULT);
+                    .setPriority(NotificationCompat.PRIORITY_MAX);
 
             NotificationManager notificationManager = (NotificationManager) getApplicationContext()
                     .getSystemService(Context.NOTIFICATION_SERVICE);
